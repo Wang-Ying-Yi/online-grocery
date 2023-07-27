@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wang's Online Grocery Store</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!--Boxicon link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="../css/format.css">
+</head>
+<body>
+
+<!-- header section starts -->
+
+<header>
+    <div class="header-1">
+
+        <a href="../html/index.html" class="logo"><img src="../Images/logo-1.png" alt="Wang's Grocery Store"></a>
+
+        <form class="search-box-container">
+            <label for="search-box" class="fas fa-search"></label>
+            <input type="text" name="" id="search-box" placeholder="search here..." 
+            onkeyup="search()">
+        </form>
+    </div>
+
+    <div class="header-2">
+
+        <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+
+        <nav class="navbar">
+            <ul>
+              <li>
+                <a href="#">Happy-Food</a>
+                <ul>
+                  <li><a href="../html/Frozen-Food.html">Frozen-Food (5)</a></li>
+                  <li><a href="../html/Others.html">Snack (5)</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Health-Food</a>
+                <ul>
+                  <li><a href="../html/Fruit.html">Fruit (5)</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Drinks</a>
+                <ul>
+                  <li><a href="../html/Beverages.html">Beverages (5)</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Daily-Stuff</a>
+                <ul>
+                  <li><a href="../html/Home-Health.html">Home-Health (7)</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">For-Pet</a>
+                <ul>
+                  <li><a href="../html/Pet-Food.html">Pet-Food (5)</a></li>
+                </ul>
+              </li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+            <!--Cart icon-->
+            <div class="cart">
+                <i href="#" class="fas fa-shopping-cart" id="cart-icon"></i>
+            </div>
+
+            <!--Cart-->
+            <div class="cart-int">
+                <h2 class="cart-title">Your Cart</h2>
+                
+                <!--Content-->
+                <div class="cart-content">
+                    
+                </div>
+
+                <!-- Total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+
+                <!--Buy Button-->
+                <a href="../html/order.html" class="btn-buy">Check Out</a>
+
+                <!--Clear Button-->
+                <button type="button" class="btn-clear">Clear</button>
+
+                <!--Cart Close-->
+                <i class="bx bx-x" id="close-cart"></i>
+            </div>
+        </div>
+
+    </div>
+</header>
+<!-- header section ends -->
+
+
+  <section class="product" id="product">
+    <!--Pet-Food-->
+    <div class="box-container">
+        <div class="box">
+            <img src="../Images/Bird Food.jpg" alt="" class="product-img">
+            <h3 class="product-title">Bird Food</h3>
+            <div class="price"> $4.50</div>
+            <a href="#" class="add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="../Images/Cat Food.jpg" alt="" class="product-img">
+            <h3 class="product-title">Cat Food</h3>
+            <div class="price"> $6.50</div>
+            <a href="#" class="add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="../Images/Dry Dog Food 1 kg.jpg" alt="" class="product-img">
+            <h3 class="product-title">Dry Dog Food 1 kg</h3>
+            <div class="price"> $7.50</div>
+            <a href="#" class="add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="../Images/Dry Dog Food 2 kg.jpg" alt="" class="product-img">
+            <h3 class="product-title">Dry Dog Food 2 kg</h3>
+            <div class="price"> $9.50</div>
+            <a href="#" class="add-cart">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="../Images/Fish Food.jpg" alt="" class="product-img">
+            <h3 class="product-title">Fish Food</h3>
+            <div class="price"> $9.50</div>
+            <a href="#" class="add-cart">add to cart</a>
+        </div>
+    </div>
+  </section>
+
+
+
+<!--Footer-->
+<section class="footer">
+    <div class="box-container">
+
+        <div class="bottom">
+            <a href="#" class="logo"><img src="../Images/logo-1.png" alt="Wang's Grocery Store"></a>
+        </div>
+
+        <div class="box-footer">
+            <h3>qauick links</h3>
+            <div class="links">
+                    <a href="../html/Frozen-Food.html">Frozen-Food</a>
+                    <a href="../html/Fruit.html">Fruit</a>
+                    <a href="../html/Beverages.html">Beverages</a>
+                    <a href="../html/Home-Health.html">Home-Health</a>
+                    <a href="../html/Pet-Food.html">Pet-Food</a>
+                    <a href="../html/Others.html">Others</a>
+            </div>
+        </div>
+
+        <div class="box-footer">
+            <h3>contact us</h3>
+            <div class="links">
+              <a>(+61) 431123456</a>
+              <a href="mailto:yingyi.wang@student.uts.edu.au">yingyi.wang@student.uts.edu.au</a>
+            </div>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> designed by <span>ying yi wang</span> | all right reserved</h1>
+    
+</section>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
