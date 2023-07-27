@@ -11,16 +11,6 @@ The main objectives of this project are as follows:
 5. Use client-side scripting languages for creating dynamic web pages.
 6. Create an e-commerce application using a combination of scripting languages, descriptive languages, and development tools.
 
-# Window Layout
-The website is designed to divide the browser window into multiple frames. Below are two examples:
-
-1. Example 1:
-- Frame 1: Website logo and other elements.
-- Frame 2: Category hierarchy showing top-level categories initially, and expanding to show second-level categories on mouseover or click.
-2. Example 2:
-- Frame 1: Category hierarchy showing top-level categories and expanding to show second-level categories on mouseover or click.
-- Frame 2: Main information area displaying a collection of items with images and "Add" buttons, allowing customers to add items to the shopping cart.
-
 # Functional Specification for Visual Components
 ## Website Logo:
 - The website should have a logo either in a separate frame or as part of a frame that also contains other elements.
